@@ -33,7 +33,7 @@ function showStatus(message) {
 // ------------------
 // Click Logic
 // ------------------
-clickBtn.addEventListener("click", () => {
+clickBox.addEventListener("click", () => {
   game.score += game.clickPower;
   updateUI();
 });
