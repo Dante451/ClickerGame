@@ -32,3 +32,44 @@ button {
 #clickBox:active {
   transform: scale(0.95);
 }
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.shop {
+  margin-top: 20px;
+}
+
+.cost {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+#clickBox {
+  position: relative;
+}
+
+#clickFloat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 10px black;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#clickFloat {
+  transition: all 0.2s ease;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#clickFloat.show {
+  transform: translate(-50%, -60%) scale(1.2);
+}
