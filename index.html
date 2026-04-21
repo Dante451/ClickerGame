@@ -10,17 +10,32 @@
     <h1>Triple T's Hustler Simulator</h1>
 
     <p>Money: <span id="score">0</span></p>
+    <p>Per Click: <span id="clickPowerDisplay">1</span></p>
+    <p>Idle Income: <span id="idleIncome">0</span>/sec</p>
     <p id="status"></p>
 
-    <div id="clickBox"></div>
+    <div id="clickBox">
+        <span id="clickFloat"></span>
+    </div>
 
     <div class="buttons">
       <button id="saveBtn">Save</button>
       <button id="loadBtn">Load</button>
       <button id="resetBtn">Reset</button>
     </div>
-  </div>
+
+    <div class="shop">
+        <button id="upgradeClickBtn">Upgrade Click (+1)</button>
+    <div class="cost">Cost: <span id="clickCost">10</span></div>
+    </div>
+
+    <div class="shop">
+        <button id="upgradeIdleBtn">Upgrade Idle (+1/sec)</button>
+    <div class="cost">Cost: <span id="idleCost">25</span></div>
+    </div>
     
   <script src="script.js"></script>
+
+    <div id="version"></div>
 </body>
 </html>
