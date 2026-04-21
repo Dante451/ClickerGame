@@ -15,3 +15,20 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+#clickBox {
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+  background-image: url("Tung-Tung-Tung-Sahur_Photos.png");
+  background-size: cover;
+  background-position: center;
+  border: 3px solid white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#clickBox:active {
+  transform: scale(0.95);
+}

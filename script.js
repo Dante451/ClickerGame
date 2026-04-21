@@ -10,7 +10,7 @@ let game = {
 // DOM Elements
 // ------------------
 const scoreEl = document.getElementById("score");
-const clickBtn = document.getElementById("clickBtn");
+const clickBox = document.getElementById("clickBox");
 const saveBtn = document.getElementById("saveBtn");
 const loadBtn = document.getElementById("loadBtn");
 const resetBtn = document.getElementById("resetBtn");
